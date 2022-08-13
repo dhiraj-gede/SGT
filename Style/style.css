@@ -48,5 +48,8 @@
     filter: brightness(50%);
   }
 
-  
-  
+  .dropdown-menu{
+    height: 20vh;
+    width: 100%;
+  }
+ 
