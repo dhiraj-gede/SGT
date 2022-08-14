@@ -12,26 +12,209 @@
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
 
   </head>
 
   <body>
-  
+    <div class="wrapper d-lg-none ">
+      <input type="checkbox" id="btn" hidden>
+      <label for="btn" class="menu-btn">
+        <i class="fas fa-bars"></i>
+        <i class="fas fa-times"></i>
+      </label>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="sidebar">
+        <div class="title">Side Menu</div>
+        <ul class="list-items">
+          <li class="nav-item">
+            <a href="#" class="nav-link align-middle px-0">
+              <i class="fas fa-home"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
+            </a>
+        </li>
+        
+        <li>
+            <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+              <i class="fas fa-th-list"></i><span class="ms-1 d-none d-sm-inline">Products</span> 
+            </a>
+            <ul class="collapse nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
+                <li class="w-100">
+                    <a href="#p1" class="nav-link px-0 align-middle" data-bs-toggle="collapse"> <span class="d-none d-sm-inline">Survey Instrument</span></a>
+                    <ul class="collapse nav flex-column ms-1" id = "p1" data-bs-parent="#submenu3">
+                        <li class="w-100">
+                            <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Total Station</a>
+                        </li>
+                        <li class="w-100">
+                            <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Auto Level</a>
+                        </li>
+                    </ul>
+                    
+                </li>
+                <li class="w-100">
+                    <a href="#p2" class="nav-link px-0 align-middle" data-bs-toggle="collapse"> <span class="d-none d-sm-inline">Soil Testing Equipment</span></a>
+                    <ul class="collapse nav flex-column ms-1" id = "p2" data-bs-parent="#submenu3">
+                        <li class="w-100">
+                            <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Permeability Tester</a>
+                        </li>
+                        <li class="w-100">
+                            <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Core Cutter Apparatus</a>
+                        </li>
+                        <li class="w-100">
+                            <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Sieve Shaker Hand Operated</a>
+                        </li>
+                        <li class="w-100">
+                            <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Pocket Penetrometer</a>
+                        </li>
+                        <li class="w-100">
+                            <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Automatic Soil Compaction</a>
+                        </li>
+                    </ul>
+                    
+                </li>
+                <li class="w-100">
+                    <a href="#p3" class="nav-link px-0 align-middle" data-bs-toggle="collapse"> <span class="d-none d-sm-inline">Concrete Testing Equipment</span></a>
+                    <ul class="collapse nav flex-column ms-1" id = "p3" data-bs-parent="#submenu3">
+                        <li class="w-100">
+                            <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Cube Compression Testing Machine</a>
+                        </li>
+                        <li class="w-100">
+                            <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Concrete Cube Mould</a>
+                        </li>
+                        <li class="w-100">
+                            <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Concrete Mixture</a>
+                        </li>
+                        <li class="w-100">
+                            <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Needle Vibrators</a>
+                        </li>
+                        <li class="w-100">
+                            <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Concrete Test Hammer</a>
+                        </li>
+                    </ul>
+                    
+                </li>
+                <li class="w-100">
+                    <a href="#p4" class="nav-link px-0 align-middle" data-bs-toggle="collapse"> <span class="d-none d-sm-inline">Machine Apparatus</span></a>
+                    <ul class="collapse nav flex-column ms-1" id = "p4" data-bs-parent="#submenu3">
+                        <li class="w-100">
+                            <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Ring & Ball Apparatus</a>
+                        </li>
+                        <li class="w-100">
+                            <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Flash & Fire Apparatus</a>
+                        </li>
+                        <li class="w-100">
+                            <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Plastic Limit Apparatus</a>
+                        </li>
+                        <li class="w-100">
+                            <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Shrinkage Limit Apparatus</a>
+                        </li>
+                        <li class="w-100">
+                            <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Vicat Needle Apparatus</a>
+                        </li>
+                    </ul>
+                    
+                </li>
+                <li class="w-100">
+                    <a href="#p5" class="nav-link px-0 align-middle" data-bs-toggle="collapse"> <span class="d-none d-sm-inline">Testing Machine</span></a>
+                    <ul class="collapse nav flex-column ms-1" id = "p5" data-bs-parent="#submenu3">
+                        <li class="w-100">
+                            <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Flexural Strength Testing Machine</a>
+                        </li>
+                        <li class="w-100">
+                            <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Cube Testing Machine</a>
+                        </li>
+                        <li class="w-100">
+                            <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Universal Testing Machine</a>
+                        </li>
+                        <li class="w-100">
+                            <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Tile Abrasion Testing Machine</a>
+                        </li>
+                        <li class="w-100">
+                            <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Impact Testing Machine</a>
+                        </li>
+                    </ul>
+                    
+                </li>
+                <li class="w-100">
+                    <a href="#p6" class="nav-link px-0 align-middle" data-bs-toggle="collapse"> <span class="d-none d-sm-inline">General Scientific Equipment</span></a>
+                    <ul class="collapse nav flex-column ms-1" id = "p6" data-bs-parent="#submenu3">
+                        <li class="w-100">
+                            <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Rain Gauge</a>
+                        </li>
+                        <li class="w-100">
+                            <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Mercury Thermometer</a>
+                        </li>
+                        <li class="w-100">
+                            <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Dial Thermometer</a>
+                        </li>
+                        <li class="w-100">
+                            <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Road Meter</a>
+                        </li>
+                        <li class="w-100">
+                            <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Vernier Caliper</a>
+                        </li>
+                    </ul>
+                    
+                </li>
+                <li class="w-100">
+                    <a href="#p7" class="nav-link px-0 align-middle" data-bs-toggle="collapse"> <span class="d-none d-sm-inline">Safety Equipment</span></a>
+                    <ul class="collapse nav flex-column ms-1" id = "p7" data-bs-parent="#submenu3">
+                        <li class="w-100">
+                            <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Warning Tapes caution danger barricading tape</a>
+                        </li>
+                        <li class="w-100">
+                            <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Electric Torch</a>
+                        </li>
+                        <li class="w-100">
+                            <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Head Face Safety</a>
+                        </li>
+                        <li class="w-100">
+                            <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Hand Safety</a>
+                        </li>
+                        <li class="w-100">
+                            <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Vernier Caliper</a>
+                        </li>
+                    </ul>
+                    
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#" class="nav-link px-0 align-middle">
+              <i class="fas fa-sliders-h"></i> <span class="ms-1 d-none d-sm-inline">Customers</span> </a>
+        </li>
+        <li>
+            <a href="#contactInfo" class="nav-link px-0 align-middle" data-bs-toggle="collapse">
+              <i class="far fa-address-card"></i> <span class="ms-1 d-none d-sm-inline">Contact Us</span> </a>
+            <ul class="collapse nav flex-column ms-1" id = "contactInfo" data-bs-parent="#submenu3">
+                <li class="w-100">
+                    <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Name:</span>xxxxxxx</a>
+                </li>
+                <li class="w-100">
+                    <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Phone:</span>xxxxxxxx</a>
+                </li>
+                <li class="w-100">
+                    <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Email:</span>xxxxxxxxx</a>
+                </li>
+            </ul>
+        </li>
+          
+          <div class="icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </ul>
+      </nav>
+    </div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       
       <div class="container-fluid">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <input type="checkbox" id="btn" hidden>
+      <label for="btn" class="menu-btn">
+        <i class="fas fa-bars"></i>
+        <i class="fas fa-times"></i>
+      </label>
         <a class="navbar-brand" href="#">S Trading Corporation</a>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ms-auto">
@@ -55,7 +238,7 @@
     </nav>
     <div class="content">
       <div class="row m-0 p-0">
-        <div class="col-8 m-0 p-0 ">
+        <div class="col-lg-8 m-0 p-0 ">
           <a href="#">
             <div class="text-white tile">
               <img src="Assets/Total_station_cover" />
@@ -65,7 +248,7 @@
             </div>
           </a>
         </div>
-        <div class="col-4 m-0 p-0">
+        <div class="col-4 d-lg-block d-none p-0">
           <div class="row m-0 p-0">
             <div class="col-s-12 m-0 p-0 "><a href="#">
               <div class="text-white tile">
@@ -86,119 +269,207 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="container m-0 p-0">
-      <div class="row p-1 m-1">
-        <nav class="navbar navbar-light bg-light col-4">
-         
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="btn" data-bs-toggle="collapse"href="#contactInfo" role="button" aria-expanded="false" aria-controls="contactInfo">Contact Us</a>
-                    <div class="collapse" id="contactInfo">
-                    <ul>
-                      <li>Name: xxxxxxx</li>
-                      <li>Phone: xxxxxxxx</li>
-                      <li>email: xxxxxxxxx</li>
-                    </ul>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="btn" href="#">Our Products</a>
-                    
-                      <ul>
-                        
-                        <a class="btn" data-bs-toggle="collapse"href="#SurveyInstrument" href="#">
-                          Survey Instrument
-                        </a>
-                        <div class="collapse" id="SurveyInstrument">
-                          <ul>
-                            <li><a href="#">Total Station</a></li>
-                            <li><a href="#">Auto Level</a></li>
-                          </ul>
-                        </div>
-                        <a class="btn" data-bs-toggle="collapse"href="#SoilTesting" href="#">
-                          Soil Testing Equipment
-                        </a>
-                        <div class="collapse" id="SoilTesting">
-                          <ul>
-                            <li><a href="#">Permeability Tester</a></li>
-                            <li><a href="#">Core Cutter Apparatus</a></li>
-                            <li><a href="#">Sieve Shaker Hand Operated</a></li>
-                            <li><a href="#">Pocket Penetrometer</a></li>
-                            <li><a href="#">Automatic Soil Compaction</a></li>
-                          </ul>
-                        </div>
-                        
-                        <a class="btn" data-bs-toggle="collapse" href="#ConcreteTesting" href="#">Concrete Testing Equipment</a>
-                        <div class="collapse" id="ConcreteTesting">
-                          <ul>
-                            <li><a href="#">Cube Compression Testing Machine</a></li>
-                            <li><a href="#">Concrete Cube Mould</a></li>
-                            <li><a href="#">Concrete Mixture</a></li>
-                            <li><a href="#">Needle Vibrators</a></li>
-                            <li><a href="#">Concrete Test Hammer</a></li>
-                          </ul>
-                        </div>
-                        <a class="btn" data-bs-toggle="collapse" href="#MachineApparatus" href="#">Machine Apparatus</a>
-                        <div class="collapse" id="MachineApparatus">
-                          <ul>
-                            <li><a href="#">Ring & Ball Apparatus</a></li>
-                            <li><a href="#">Flash & Fire Apparatus</a></li>
-                            <li><a href="#">Plastic Limit Apparatus</a></li>
-                            <li><a href="#">Shrinkage Limit Apparatus</a></li>
-                            <li><a href="#">Vicat Needle Apparatus</a></li>
-                          </ul>
-                        </div>
-                        <a class="btn" data-bs-toggle="collapse" href="#TestingMachine" >Testing Machine</a>
-                        <div class="collapse" id="TestingMachine">
-                          <ul>
-                            <li><a href="#">Flexural Strength Testing Machine</a></li>
-                            <li><a href="#">Cube Testing Machine</a></li>
-                            <li><a href="#">Universal Testing Machine</a></li>
-                            <li><a href="#">Tile Abrasion Testing Machine</a></li>
-                            <li><a href="#">Impact Testing Machine</a></li>
-                          </ul>
-                        </div>
-                        <a class="btn" data-bs-toggle="collapse" href="#GeneralEquipment" >General Scientific Equipment</a>
-                        <div class="collapse" id="GeneralEquipment">
-                          <ul>
-                            <li><a href="#">Rain Gauge</a></li>
-                            <li><a href="#">Mercury Thermometer</a></li>
-                            <li><a href="#">Dial Thermometer</a></li>
-                            <li><a href="#">Road Meter</a></li>
-                            <li><a href="#">Vernier Caliper</a></li>
-                          </ul>
-                        </div>
-                        
-                        <a class="btn" data-bs-toggle="collapse" href="#SafetyEquipment">Safety Equipment</a>
-                        <div class="collapse" id="SafetyEquipment">
-                          <ul>
-                            <li><a href="#">Warning Tapes caution danger barricading tape</a></li>
-                            <li><a href="#">Electric Torch</a></li>
-                            <li><a href="#">Head Face Safety</a></li>
-                            <li><a href="#">Hand Safety</a></li>
-                            <li><a href="#">Vernier Caliper</a></li>
-                          </ul>
-                        </div>
+    
+    <div class="container-fluid m-0 p-0">
+      <div class="row  p-0 m-0">
+        <div class="col-lg-3 col-xl-2 d-none d-lg-block px-0 bg-dark">
+          <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+              <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                  <span class="fs-5 d-none d-sm-inline">Menu</span>
+              </a>
+              <ul class="nav  nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                  <li class="nav-item">
+                      <a href="#" class="nav-link align-middle px-0">
+                        <i class="fas fa-home"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
+                      </a>
+                  </li>
+                  
+                  <li>
+                      <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                        <i class="fas fa-th-list"></i><span class="ms-1 d-none d-sm-inline">Products</span> 
+                      </a>
+                      <ul class="collapse nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
+                          <li class="w-100">
+                              <a href="#p1" class="nav-link px-0 align-middle" data-bs-toggle="collapse"> <span class="d-none d-sm-inline">Survey Instrument</span></a>
+                              <ul class="collapse nav flex-column ms-1" id = "p1" data-bs-parent="#submenu3">
+                                  <li class="w-100">
+                                      <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Total Station</a>
+                                  </li>
+                                  <li class="w-100">
+                                      <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Auto Level</a>
+                                  </li>
+                              </ul>
+                              
+                          </li>
+                          <li class="w-100">
+                              <a href="#p2" class="nav-link px-0 align-middle" data-bs-toggle="collapse"> <span class="d-none d-sm-inline">Soil Testing Equipment</span></a>
+                              <ul class="collapse nav flex-column ms-1" id = "p2" data-bs-parent="#submenu3">
+                                  <li class="w-100">
+                                      <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Permeability Tester</a>
+                                  </li>
+                                  <li class="w-100">
+                                      <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Core Cutter Apparatus</a>
+                                  </li>
+                                  <li class="w-100">
+                                      <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Sieve Shaker Hand Operated</a>
+                                  </li>
+                                  <li class="w-100">
+                                      <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Pocket Penetrometer</a>
+                                  </li>
+                                  <li class="w-100">
+                                      <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Automatic Soil Compaction</a>
+                                  </li>
+                              </ul>
+                              
+                          </li>
+                          <li class="w-100">
+                              <a href="#p3" class="nav-link px-0 align-middle" data-bs-toggle="collapse"> <span class="d-none d-sm-inline">Concrete Testing Equipment</span></a>
+                              <ul class="collapse nav flex-column ms-1" id = "p3" data-bs-parent="#submenu3">
+                                  <li class="w-100">
+                                      <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Cube Compression Testing Machine</a>
+                                  </li>
+                                  <li class="w-100">
+                                      <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Concrete Cube Mould</a>
+                                  </li>
+                                  <li class="w-100">
+                                      <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Concrete Mixture</a>
+                                  </li>
+                                  <li class="w-100">
+                                      <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Needle Vibrators</a>
+                                  </li>
+                                  <li class="w-100">
+                                      <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Concrete Test Hammer</a>
+                                  </li>
+                              </ul>
+                              
+                          </li>
+                          <li class="w-100">
+                              <a href="#p4" class="nav-link px-0 align-middle" data-bs-toggle="collapse"> <span class="d-none d-sm-inline">Machine Apparatus</span></a>
+                              <ul class="collapse nav flex-column ms-1" id = "p4" data-bs-parent="#submenu3">
+                                  <li class="w-100">
+                                      <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Ring & Ball Apparatus</a>
+                                  </li>
+                                  <li class="w-100">
+                                      <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Flash & Fire Apparatus</a>
+                                  </li>
+                                  <li class="w-100">
+                                      <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Plastic Limit Apparatus</a>
+                                  </li>
+                                  <li class="w-100">
+                                      <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Shrinkage Limit Apparatus</a>
+                                  </li>
+                                  <li class="w-100">
+                                      <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Vicat Needle Apparatus</a>
+                                  </li>
+                              </ul>
+                              
+                          </li>
+                          <li class="w-100">
+                              <a href="#p5" class="nav-link px-0 align-middle" data-bs-toggle="collapse"> <span class="d-none d-sm-inline">Testing Machine</span></a>
+                              <ul class="collapse nav flex-column ms-1" id = "p5" data-bs-parent="#submenu3">
+                                  <li class="w-100">
+                                      <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Flexural Strength Testing Machine</a>
+                                  </li>
+                                  <li class="w-100">
+                                      <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Cube Testing Machine</a>
+                                  </li>
+                                  <li class="w-100">
+                                      <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Universal Testing Machine</a>
+                                  </li>
+                                  <li class="w-100">
+                                      <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Tile Abrasion Testing Machine</a>
+                                  </li>
+                                  <li class="w-100">
+                                      <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Impact Testing Machine</a>
+                                  </li>
+                              </ul>
+                              
+                          </li>
+                          <li class="w-100">
+                              <a href="#p6" class="nav-link px-0 align-middle" data-bs-toggle="collapse"> <span class="d-none d-sm-inline">General Scientific Equipment</span></a>
+                              <ul class="collapse nav flex-column ms-1" id = "p6" data-bs-parent="#submenu3">
+                                  <li class="w-100">
+                                      <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Rain Gauge</a>
+                                  </li>
+                                  <li class="w-100">
+                                      <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Mercury Thermometer</a>
+                                  </li>
+                                  <li class="w-100">
+                                      <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Dial Thermometer</a>
+                                  </li>
+                                  <li class="w-100">
+                                      <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Road Meter</a>
+                                  </li>
+                                  <li class="w-100">
+                                      <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Vernier Caliper</a>
+                                  </li>
+                              </ul>
+                              
+                          </li>
+                          <li class="w-100">
+                              <a href="#p7" class="nav-link px-0 align-middle" data-bs-toggle="collapse"> <span class="d-none d-sm-inline">Safety Equipment</span></a>
+                              <ul class="collapse nav flex-column ms-1" id = "p7" data-bs-parent="#submenu3">
+                                  <li class="w-100">
+                                      <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Warning Tapes caution danger barricading tape</a>
+                                  </li>
+                                  <li class="w-100">
+                                      <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Electric Torch</a>
+                                  </li>
+                                  <li class="w-100">
+                                      <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Head Face Safety</a>
+                                  </li>
+                                  <li class="w-100">
+                                      <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Hand Safety</a>
+                                  </li>
+                                  <li class="w-100">
+                                      <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Vernier Caliper</a>
+                                  </li>
+                              </ul>
+                              
+                          </li>
                       </ul>
-                 
-                    
-                </li>
-            </ul>
-          </nav>
-        <div class="col-8 content">
-          <div class="dropdown ">
+                  </li>
+                  <li>
+                      <a href="#" class="nav-link px-0 align-middle">
+                        <i class="fas fa-sliders-h"></i> <span class="ms-1 d-none d-sm-inline">Customers</span> </a>
+                  </li>
+                  <li>
+                      <a href="#contactInfo" class="nav-link px-0 align-middle" data-bs-toggle="collapse">
+                        <i class="far fa-address-card"></i> <span class="ms-1 d-none d-sm-inline">Contact Us</span> </a>
+                      <ul class="collapse nav flex-column ms-1" id = "contactInfo" data-bs-parent="#submenu3">
+                          <li class="w-100">
+                              <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Name:</span>xxxxxxx</a>
+                          </li>
+                          <li class="w-100">
+                              <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Phone:</span>xxxxxxxx</a>
+                          </li>
+                          <li class="w-100">
+                              <a href="#" class="nav-link px=0 bg-dark"><span class="d-none d-sm-inline">Email:</span>xxxxxxxxx</a>
+                          </li>
+                      </ul>
+                  </li>
+              </ul>
+              <hr>
+              <div class="icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+              </div>
+              
+          </div>
+      </div>
+        
+        <div class="col-lg-8  col-md-12 d-flex justify-content-center content">
+          <div class="dropdown m-1 p-1 ">
             <input class="form-control dropdown-toggle" name="Search" id="searchBar" type="search" placeholder="Search Products" aria-expanded="false"/>
             <ul class="dropdown-menu overflow-auto " id="dropdownMenu">
             </ul>
           </div>
         </div>
       </div>
-    </div>
-    
+      </div>
+  </div>
     <footer class="d-flex justify-content-center">
         <p>Copyright &copy; S Trading Corporation</a></p>   
     </footer>
