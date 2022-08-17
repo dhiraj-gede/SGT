@@ -42,3 +42,6 @@ function renderer(){
     toggler.innerHTML = renderHTML;
 
 } 
+// TODO: create DOM element for each item in the filteredArray
+// TODO: append each item to the DOM
+// TODO: add event listener to each item in the DOM
