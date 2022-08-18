@@ -45,3 +45,7 @@ function renderer(){
 // TODO: create DOM element for each item in the filteredArray
 // TODO: append each item to the DOM
 // TODO: add event listener to each item in the DOM
+//TODO: when an item is clicked, add it to the Quotation cart
+// TODO: create a function that will add the item to the cart
+// TODO: create a function that will remove the item from the cart
+// TODO: Add event listener to the cart button
